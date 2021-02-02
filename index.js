@@ -7,7 +7,7 @@ const run = async (command, log) => {
           console.log(command)
         }
       })
-      .on('progress', (p) => {
+      .on('error', (p) => {
         if (log) {
           console.error(p)
         }
