@@ -31,3 +31,9 @@ To send debug information to `stderr`, add `true` as a second parameter to run e
   await run(command, true)
 ```
 
+To probe a file with `ffprobe`:
+
+```js
+  const probe = require('ffmpegrunner').probe
+  const results = await probe('myfile.mp4')
+```
