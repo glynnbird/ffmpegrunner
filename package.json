@@ -1,5 +1,5 @@
 {
-  "name": "ffmpegrunner",
+  "name": "choirlessffmpegrunner",
   "version": "1.0.0",
   "description": "fluent-ffmpeg promise runner",
   "main": "index.js",
